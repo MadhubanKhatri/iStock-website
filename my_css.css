@@ -1,0 +1,129 @@
+.sidebar {
+    width: 17%;
+    height: 100%;
+    position: fixed;
+    margin-top: -5px;
+    background-color: steelblue;
+}
+
+
+.sidebar ul li {
+    list-style: none;
+    padding: 10px;
+    margin-left: -40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: tahoma;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.sidebar ul li:hover {
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+.main-content {
+    width: 70%;
+    margin-left: 300px;
+}
+
+.main-content .heading_content h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.main-content .heading_content img {
+    width: 100%;
+    height: 680px;
+}
+
+.search_container input {
+    width: 95%;
+    padding: 20px;
+    font-size: 17px;
+    margin-bottom: 15px;
+    border: 2px solid;
+}
+
+.img_content {
+    margin-top: 50px;
+    border-top: 1px solid;
+}
+
+.img_content h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img_container img {
+    width: 32%;
+    margin: 5px;
+}
+
+table {
+    padding: 5px;
+}
+
+table td {
+    width: 35%;
+}
+
+table img {
+    width: 350px;
+}
+
+.footer_content {
+    border-top: 1px solid;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer_content table {
+    width: 75%;
+    margin-left: 80px;
+}
+
+.footer_content table td {
+    padding: 5px 40px;
+    text-align: center;
+}
+
+.footer_content table td a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer_content table td a:hover {
+    color: lightcoral;
+}
+.about_section{
+    border-top: 1px solid;
+    margin-top: 60px;
+}
+.about_section h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about_section p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.investor_section {
+    text-align: center;
+    border-top: 1px solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+.investor_section img {
+    width: 100%;
+    height: 400px;
+    margin: 5px;
+}
+.investor_section img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
